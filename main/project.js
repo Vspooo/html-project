@@ -24,7 +24,7 @@ const dragStop = () =>{
 
 arrowButton.forEach( button =>{
     button.addEventListener("click", ()=>{
-        carousel.scrollLeft += button.id === "left" ? -firstCardWeight:firstCardWeight;
+        carousel.scrollLeft += button.id === "left" ? -firstCardWeight:firstCardWeight;  // тут мені поміг інет і ютуб :) //
     })
 })
 
