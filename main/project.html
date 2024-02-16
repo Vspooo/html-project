@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="project.css">
+    <script src="project.js" defer></script>
 </head>
 <body>
 
 <header>
     <img src="imgs/image-removebg-preview.png" alt="img">
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Service</a>
-        <a href="#">Our project</a>
-        <a href="#">About us</a>
+        <button>Home</button>
+        <button>Service</button>
+        <button>Our project</button>
+        <button>About us</button>
     </nav>
-    <input type="button" value="Contact Us" class="button-ContactUs">
+    <button class="header-button-ContactUs">Contact Us</button>
 </header>
 
 
@@ -25,7 +26,7 @@
         <p>Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will
             provide
             the best service for those of you who use our services.</p>
-        <input type="button" class="button-OurServices" value="Our Services">
+        <button class="button-OurServices">Our Services</button>
     </aside>
     <img src="imgs/Group%20162549%201.png" alt="img">
 </div>
@@ -98,29 +99,41 @@
 
 <div class="wrap4">
     <h1>Our Awesome Portfolio</h1>
-    <i class="fa-solid fa-arrow-left"></i>
+    <i id="left" class="fa-solid fa-arrow-left"></i>
 <ul class="carousel">
     <li class="card">
-        <img src="imgs/portfolio-eg1.png" alt="portfolio">
+        <img src="imgs/portfolio-eg1.png" alt="portfolio" draggable="false">
     </li>
     <li class="card">
-        <img src="imgs/portfolio-eg2.png" alt="portfolio">
+        <img src="imgs/portfolio-eg2.png" alt="portfolio" draggable="false">
     </li>
     <li class="card">
-        <img src="imgs/portfolio-eg3.png" alt="portfolio">
+        <img src="imgs/portfolio-eg3.png" alt="portfolio" draggable="false">
     </li>
     <li class="card">
-        <img src="imgs/portfolio-eg1.png" alt="portfolio">
+        <img src="imgs/portfolio-eg1.png" alt="portfolio" draggable="false">
     </li>
     <li class="card">
-        <img src="imgs/portfolio-eg2.png" alt="portfolio">
+        <img src="imgs/portfolio-eg2.png" alt="portfolio" draggable="false">
     </li>
     <li class="card">
-        <img src="imgs/portfolio-eg3.png" alt="portfolio">
+        <img src="imgs/portfolio-eg3.png" alt="portfolio" draggable="false">
     </li>
 </ul>
-    <i class="fa-solid fa-arrow-right"></i>
+    <i id="right" class="fa-solid fa-arrow-right"></i>
 </div>
+
+<div class="wrap5">
+    <div class="contact-row">
+        <h2>Contact us for the service you want to use</h2>
+        <button class="button-ContactUs">Contact Us</button>
+    </div>
+</div>
+
+<footer>
+    <img src="imgs/image-removebg-preview.png" alt="logo">
+    <p>© 2024 Enver, All Rights Reserved</p>
+</footer>
 
 
 <script src="https://kit.fontawesome.com/54f7f1b031.js" crossorigin="anonymous"></script>
