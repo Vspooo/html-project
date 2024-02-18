@@ -4,6 +4,14 @@ let arrowButton;
 arrowButton = document.querySelectorAll(".wrap4>i")
 let firstCardWeight;
 firstCardWeight =  carousel.querySelector(".card").offsetWidth
+let toggleButton;
+toggleButton = document.querySelector(".toggle-btn");
+let dropDownMenu;
+dropDownMenu = document.querySelector(".dropDown-menu");
+
+toggleButton.onclick = function () {
+    dropDownMenu.classList.toggle("open")
+}
 
 const dragging = (e)=>{
     if (!isDragging)return;

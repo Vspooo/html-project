@@ -16,7 +16,53 @@ header {
 
 }
 
+.toggle-btn{
+    display: none;
+}
 
+
+.fa-bars{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.dropDown-menu{
+    display: none;
+    position: absolute;
+    top: 2vw;
+    left: 27vw;
+
+    width: 80vw;
+    height: 7vw;
+    background-color: #5454D4;
+
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+    border-radius: 5px;
+}
+
+.dropDown-menu.open{
+    display: flex;
+}
+
+.dropDown-menu>button{
+    width: 8vw;
+    height: 2vw;
+    background: none;
+    border: none;
+
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 nav {
     display: flex;
@@ -278,7 +324,6 @@ nav>button:hover{
 .card {
     height: 25vh;
     list-style: none;
-    background: white;
     border-radius: 8px;
 
     display: flex;
@@ -403,4 +448,11 @@ footer > p {
     font-weight: 400;
 }
 
+
+.support-buttons>a{
+    display: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.70);;
+}
 

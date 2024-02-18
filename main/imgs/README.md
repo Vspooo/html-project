@@ -1,0 +1,1 @@
+media-400-1000 is made for iphone XR and later models

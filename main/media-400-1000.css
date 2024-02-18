@@ -1,0 +1,167 @@
+@media screen and (min-width: 400px) and (max-width: 1000px){
+
+
+
+    .wrap1{
+        height: 30vh;
+    }
+
+    header{
+        width: 110vw;
+    }
+
+    header>nav{
+        display: none;
+    }
+    header>.header-button-ContactUs{
+        display: none;
+    }
+
+    .toggle-btn{
+        display: block;
+    }
+
+    .wrap1>img{
+        width: 50vw;
+        height: 25vh;
+        bottom: 1vw;
+    }
+
+    .wrap1>aside{
+        margin: 0 30vw;
+    }
+
+    .wrap1>aside>h1{
+        width: 37vw;
+    }
+
+    .wrap1>aside>p{
+        width: 35vw;
+    }
+    .button-OurServices{
+        width: 20vw;
+        height: 3vh;
+    }
+
+/*  wrap2  */
+
+    .wrap2{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        margin: 0 10vw;
+        align-items: flex-start;
+    }
+
+    .row-text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .row-text>section{
+        width: 50vw;
+    }
+
+    .row-text>aside>p{
+        width: 45vw;
+    }
+
+    .wrap2>img{
+        width: 95vw;
+        height: 25vh;
+    }
+
+/*  wrap3  */
+
+    .wrap3{
+        margin: 0 60vw;
+        height: 115vh;
+    }
+
+
+    .wrap3>h1{
+        width: 45vw;
+    }
+
+    .container-services{
+        display: flex;
+        flex-direction: column;
+        width: 35vw;
+    }
+
+    .service{
+        margin: 1vw 0
+    }
+
+    .service>h1{
+        font-size: 40px;
+    }
+
+    .service>p{
+        font-size: 25px;
+        width: 35vw;
+    }
+
+/*  wrap4  */
+    .wrap4{
+        height: 35vh;
+        margin: 0 10vw;
+    }
+
+    .wrap4>h1{
+        margin: 5vw 12vw;
+        font-size: 55px;
+        width: 40vw;
+    }
+
+    .wrap4>i{
+        display: none;
+    }
+
+    .carousel {
+        margin: 2vw;
+        grid-auto-columns: 100%;
+    }
+
+    .card>img{
+        width: 72vw;
+    }
+
+/*    wrap5    */
+    .wrap5{
+        width: 116vw;
+        height: 20vh;
+        justify-content: normal;
+    }
+
+    .contact-row{
+        margin: 0 22vw;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .button-ContactUs{
+        margin: 5vw 0;
+        width: 20vw;
+        height: 3vh;
+
+    }
+
+/*    footer  */
+    footer{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .support-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .support-buttons>a{
+        display: block;
+    }
+
+}
