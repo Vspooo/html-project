@@ -1,0 +1,38 @@
+
+.menu-bar{
+    position: fixed;
+    margin: 0;
+    width: 118vw;
+    height: 3vh;
+
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+    background-color: #5454D4;
+}
+
+.menu-bar-button {
+    width: 23vw;
+    height: 2vw;
+
+    font-size: 18px;
+}
+
+.menu-bar-button>button{
+    width: 20vw;
+    border: none;
+    border-radius: 10px;
+    background: #19191B;
+    color: white;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu-bar-button>i{
+    position: relative;
+    color: white;
+    left: 4vw;
+}
