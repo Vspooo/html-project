@@ -43,6 +43,10 @@
         height: 3vh;
     }
 
+    .menu-bar{
+        display: flex;
+    }
+
 /*  wrap2  */
 
     .wrap2{
@@ -129,7 +133,7 @@
 
 /*    wrap5    */
     .wrap5{
-        width: 116vw;
+        width: 118vw;
         height: 20vh;
         justify-content: normal;
     }
